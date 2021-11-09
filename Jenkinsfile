@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Test"){
             steps{
-                python3 'main.py'
+                python3 '_2048.py'
             }
         }
     }
